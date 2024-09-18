@@ -13,7 +13,7 @@ Descrição da alteração que está sendo proposta.
 
 - [ ] Minhas alterações não deletam partes do projeto
 - [ ] Minhas alterações não introduzem novos problemas
-- [ ] Meu pr está de acordo com o processo de git semântico documentado em: [Guia Git semântico](https://www.conventionalcommits.org/pt-br/v1.0.0-beta.4/)
+- [ ] Minha contribuição está de acordo com o [Guia de Contribuição](../CONTRIBUTING.md)
 
 ## Comentários adicionais
 
