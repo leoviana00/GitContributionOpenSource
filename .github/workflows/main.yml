@@ -10,6 +10,6 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: leoviana00/pr-title-checker@v1.0.0
+      - uses: actions/checkout@v4
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
