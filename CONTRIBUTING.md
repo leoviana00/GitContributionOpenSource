@@ -193,4 +193,4 @@ Aqui estão todas as informações adicionais necessárias para o revisor, por e
 
 ### Checks
 
-Cada RP precisa ser revisado antes de poder ser mesclado.
+Cada `PR` precisa ser revisado antes de poder ser mesclado.
