@@ -149,6 +149,7 @@ BREAKING CHANGE: o método públic #adicionarAoCarrinho foi removido
 > [!NOTE]
 > Um PR tem que fechar pelo menos um problema e, de preferência, apenas um. Quanto menor a quantidade de trabalho em um PR, mais fácil é revisá-lo.
 > O corpo do PR deve conter as respostas baseadas no [pull-request template](https://github.com/leoviana00/GitTemplate/blob/main/.github/pull_request_template.md)
+> Como criar uma solicitação de Pull Request: [Documentação](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
 
 - Corpo do Pull Request Template:
 
