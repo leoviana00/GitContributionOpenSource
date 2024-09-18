@@ -46,8 +46,7 @@ Exemplo:
 > [!IMPORTANT]
 > O padrão a ser seguido para os commits é baseado no [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0-beta.2/). 
 
-> [!TIP]
-> Esse padrão é escrito da seguinte forma:
+- Esse padrão é escrito da seguinte forma:
 
 ```
 <tipo>[(escopo opcional)]: <descrição>
@@ -155,11 +154,11 @@ fix-busca-checklists
 > [!NOTE]
 > Um PR tem que fechar pelo menos um problema e, de preferência, apenas um. Quanto menor a quantidade de trabalho em um PR, mais fácil é revisá-lo.
 
-O corpo do PR deve começar com uma [mensagem que encerre as issues relacionadas ](https://docs.github.com/pt/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) e a descrição real em novas linhas.
+> O corpo do PR deve começar com uma [mensagem que encerre as issues relacionadas ](https://docs.github.com/pt/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) e a descrição real em novas linhas.
 
-O histórico de confirmações em um PR não deve conter  `Merge` confirmações e deve ser rebaseado em cima de`master`.
+> O histórico de confirmações em um PR não deve conter  `Merge` confirmações e deve ser rebaseado em cima de`master`.
 
-É mais fácil revisar o PR se você rebasear seus commits para que cada commit represente uma subparte do desenvolvimento e possa ser revisado de forma independente ou uma lista clara dos recursos naquele branch.
+> É mais fácil revisar o PR se você rebasear seus commits para que cada commit represente uma subparte do desenvolvimento e possa ser revisado de forma independente ou uma lista clara dos recursos naquele branch.
 
 Exemplo:
 ```
