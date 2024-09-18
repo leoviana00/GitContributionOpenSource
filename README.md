@@ -21,16 +21,16 @@ Repositórios para fins educacionais, com o propósito de praticar fluxos de tra
 
 ## 👣 Roadmap
 
-- [ ] - Padronização de Commits
-- [ ] - Padronização de Branchs
-- [ ] - Documentação
-- [ ] - Configuração de Issues Templates para o repositório
-    - [ ] - Bug Report
-    - [ ] - Feature Report
-- [ ] - Configuração de Pull Request Template para o repositório
-- [ ] - Abertura de Issues
-- [ ] - Fechar Issues a partir de um PR
-- [ ] - Aprovação de PR automatizada baseada em certas condições
+- [x] Padronização de Commits
+- [x] Padronização de Branchs
+- [x] Documentação
+- [x] Configuração de Issues Templates para o repositório
+    - [x] Bug Report
+    - [x] Feature Report
+- [x] Configuração de Pull Request Template para o repositório
+- [x] Abertura de Issues
+- [x] Fechar Issues a partir de um PR
+- [ ] Aprovação de PR automatizada baseada em certas condições
 
 ## 📄 Referências
 
