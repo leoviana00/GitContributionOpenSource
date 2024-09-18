@@ -2,7 +2,8 @@
 
 👍 Primeiramente, obrigado por dedicar um tempo para contribuir! 🎉👍
 
-Este projeto foi feito criado para fins educacionais , praticar a abertura de issues e e pull-requests, utilização de templates, padronização de commits e branchs. Então sinta-se livre para contribuir. 
+Este projeto adere ao [código de conduta](https://github.com/leoviana00/GitTemplate/blob/main/CODE_OF_CONDUCT.md). Ao participar, espera-se que você cumpra este código.
+O projeto foi criado para fins educacionais , praticar a abertura de issues e e pull-requests, configuração e utilização de issues templates, padronização de commits e branchs. Então sinta-se livre para contribuir. 
 
 Formas de contribuição:
 
