@@ -1,6 +1,6 @@
 name: "PR Title Checker"
 on:
-  pull_request:
+  pull_request_target:
     types:
       - opened
       - edited
@@ -9,7 +9,9 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout code from PR (Safe Checkout)
+        uses: actions/checkout@v4
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ref: ${{ github.event.pull_request.head.sha }}
