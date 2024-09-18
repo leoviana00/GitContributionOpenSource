@@ -1,0 +1,10 @@
+{
+    "LABEL": {
+      "name": "titulo está fora do padrão",
+      "color": "FF0000"
+    },
+    "CHECKS": {
+      "prefixes": ["fix: ", "feat: "],
+      "regexp": "docs\\(v[0-9]\\): "
+    }
+  }
