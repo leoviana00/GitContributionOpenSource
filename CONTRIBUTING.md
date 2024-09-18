@@ -154,18 +154,47 @@ fix-busca-checklists
 
 > [!NOTE]
 > Um PR tem que fechar pelo menos um problema e, de preferência, apenas um. Quanto menor a quantidade de trabalho em um PR, mais fácil é revisá-lo.
-> O corpo do PR deve começar com uma [mensagem que encerre as issues relacionadas ](https://docs.github.com/pt/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) e a descrição real em novas linhas.
-> O histórico de confirmações em um PR não deve conter  `Merge` confirmações e deve ser rebaseado em cima de`master`.
-> É mais fácil revisar o PR se você rebasear seus commits para que cada commit represente uma subparte do desenvolvimento e possa ser revisado de forma independente ou uma lista clara dos recursos naquele branch.
+> O corpo do PR deve conter as respostas baseadas no [pull-request template](https://github.com/leoviana00/GitTemplate/blob/main/.github/pull_request_template.md)
 
-Exemplo:
-```
-Closes #123
+- Corpo do Pull Request Template:
 
+```md
+## Descrição
+
+Descrição da alteração que está sendo proposta.
+
+## Tipo de alteração
+
+- [ ] Correção de bug
+- [ ] Nova funcionalidade
+- [ ] Alteração na documentação
+- [ ] Outro (especifique)
+
+## Pre-merge Checklist
+
+- [ ] Minhas alterações não deletam partes do projeto
+- [ ] Minhas alterações não introduzem novos problemas
+- [ ] Minha contribuição está de acordo com o [Guia de Contribuição](https://github.com/leoviana00/GitTemplate/blob/main/CONTRIBUTING.md)
+
+## Comentários adicionais
+
+Mensagem que encerre a issue relacionada
+Adicione aqui quaisquer comentários ou informações adicionais relevantes para o revisor.
+
+Ex: 
+Closes #5
 Aqui estão todas as informações adicionais necessárias para o revisor, por exemplo, execute o Yarn antes de revisar.
+
+## Screenshots
+
+| Before | After |
+| ------ | ----- |
+| Image  | Image |
+
 ```
 
-- [Template Pull Request](.github/pull_request_template.md)
+> [!NOTE]
+> Em comentários adicionais, inicie com uma [mensagem que encerre as issues relacionadas ](https://docs.github.com/pt/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) e abaixo dela, em uma nova alinha adicione quaisquer comentários ou informações adicionais relevantes para o revisor.
 
 ### Checks
 

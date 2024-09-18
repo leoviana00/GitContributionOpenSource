@@ -17,6 +17,8 @@ Descrição da alteração que está sendo proposta.
 
 ## Comentários adicionais
 
+Seguir instruções descritas no [Guia do Contribuidor](https://github.com/leoviana00/GitTemplate/blob/main/CONTRIBUTING.md#pull-requests)
+
 Adicione aqui quaisquer comentários ou informações adicionais relevantes para o revisor.
 
 ## Screenshots
