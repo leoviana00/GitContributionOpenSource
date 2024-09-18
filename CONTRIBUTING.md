@@ -1,5 +1,9 @@
 ## Contribuindo para o Projeto
 
+[![Star](https://img.shields.io/github/stars/leoviana00/GitTemplate?style=social)](https://github.com/leoviana00/GitTemplate/stargazers)
+[![Forks](https://img.shields.io/github/forks/leoviana00/GitTemplate?style=social)](https://github.com/leoviana00/GitTemplate/forks)
+[![GitHub Issues](https://img.shields.io/github/issues/leoviana00/GitTemplate?style=social)](https://github.com/leoviana00/GitTemplate/issues/)
+
 👍 Primeiramente, obrigado por dedicar um tempo para contribuir! 🎉👍
 
 Este projeto adere ao [código de conduta](https://github.com/leoviana00/GitTemplate/blob/main/CODE_OF_CONDUCT.md). Ao participar, espera-se que você cumpra este código.
@@ -7,9 +11,9 @@ O projeto foi criado para fins educacionais , praticar a abertura de issues e e 
 
 Formas de contribuição:
 
-⚠️ Resolvendo, respondendo ou indicando issues
+⚠️ Resolvendo, respondendo ou indicando **issues**
 
-⭐ Adicionando aos favoritos (star)
+⭐ Adicionando aos favoritos (**star**)
 
 > [!IMPORTANT]
 > A seguir, você pode encontrar algumas coisas para manter em mente antes de contribuir:
@@ -68,17 +72,18 @@ Exemplo:
 
 ## Lista de tipos de commits permitidos
 
-- `feat`: Uma funcionalidade
-- `fix`: Um ajuste de erro/bug
-- `docs`: Modificação na documentação
-- `style`: Mudança de estilo (ponto, vírgula, indentação)
-- `refactor`: Mudança de código que não adiciona funcionalidade ou arruma um erro
-- `perf`: Mudança que altera performance
-- `test`: Novos testes ou correção de antigos
-- `build`: Mudanças que afetam o build ou dependências exeternas (gulp, npm)
-- `ci`: Mudanças na configuração da Integração Contínua (Travis, Circle)
-- `chore`: Outras mudanças que não são nos arquivos de src ou test
-- `revert`: Reversão de um commit
+| Tipo de Commit | Scope        |Descrição                                                             | Exemplo
+| ---------------|--------------|----------------------------------------------------------------------|-----------
+| `feat`         | portfolio    | Adiciona uma nova funcionalidade ao projeto.                         | `feat(portfolio): add USENAME.md profile`
+| `fix`          | cadastro     | Corrige um bug ou problema no projeto.                               | `fix(cadastro): fixed issue fix#IssueNumber`
+| `docs`         | arquitetura  | Altera a documentação do projeto.                                    | `docs(arquitetura): update README.md`          
+| `style`        | comunicacao  | Realiza mudanças na aparência, sem alterar a funcionalidade.         | `style(comunicacao): add EFFECTNAME to COMPONENT`
+| `refactor`     | services     | Realiza mudanças no código que não alteram a funcionalidade.         | `refactor(services): refactor at CLASSNAME`
+| `test`         | editarsenha  | Adiciona ou modifica testes no projeto.                              | `test(editarSenha): add unit test for UserService`
+| `build`        | nfe          | Mudanças que afetam o build ou dependências exeternas (gulp, npm)    | `build(nfe): update npm`
+| `ci`           | scope-a      | Mudanças na configuração da Integração Contínua (Travis, Circle)     | `ci(scope-a): remove stage tests at pipeline jenkins `
+| `revert`       | scope-b      | Reversão de um commit                                                | `revert(scope-b): revert the last two commits`
+
 
 - Exemplos de commits:
 
@@ -116,21 +121,25 @@ BREAKING CHANGE: o método públic #adicionarAoCarrinho foi removido
 
 1. O type ou categoria do branch. Os types podem ser os seguintes:
 
-- `docs`: apenas mudanças de documentação;
-- `feat`: uma nova funcionalidade;
-- `fix`: a correção de um bug;
-- `perf`: mudança de código focada em melhorar performance;
-- `refactor`: mudança de código que não adiciona uma funcionalidade e também não corrigi um bug;
-- `style`: mudanças no código que não afetam seu significado (espaço em branco, formatação, ponto e vírgula, etc);
-- `test`: adicionar ou corrigir testes.
+- `feat`         
+- `fix`          
+- `docs`       
+- `refactor`
 
 2. O que o branch faz em si.
-
 
 ```
 <tipo>-<descrição>
 
 ```
+- Quadro de exemplos:
+
+| Tipo de Commit | Descrição                                     | Exemplo
+| ---------------|-----------------------------------------------|-----------
+| `feat`         | Uma nova funcionalidade                       | `feat-cadastro-fornecedor`
+| `fix`          | Correção de um bug                            | `fix-cadastro-clientes`
+| `docs`         | Apenas mudanças de documentação;              | `docs-documentar-arquitetura`  
+| `refactor`     | Mudança que não adiciona uma funcionalidade   | `refactor-edicao-colaboradores`
 
 
 | Campo     | Obrigatório | Descrição |
@@ -138,17 +147,7 @@ BREAKING CHANGE: o método públic #adicionarAoCarrinho foi removido
 | Tipo      |     ✅      | Tipo do commit que vai ser feito. Verificar a [lista de tipos permitidos](#lista-de-tipos-de-commits-permitidos) |
 | Descrição |     ✅      | O que o branch faz em si |
 
-> [!WARNING]
-> Sempre separados por `hífen`.
 
-> [!TIP]
-> Exemplos de utilização:
-
-```
-feat-cadastro-veiculos
-refactor-edicao-colaboradores
-fix-busca-checklists
-```
 
 ## Pull Requests
 
