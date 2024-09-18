@@ -1,6 +1,6 @@
 ## Descrição
 
-Descrição da alteração que está sendo proposta.
+<!-- Descrição da alteração que está sendo proposta. -->
 
 ## Tipo de alteração
 
@@ -17,12 +17,15 @@ Descrição da alteração que está sendo proposta.
 
 ## Comentários adicionais
 
-Seguir instruções descritas no [Guia do Contribuidor](https://github.com/leoviana00/GitTemplate/blob/main/CONTRIBUTING.md#pull-requests)
-
-Adicione aqui quaisquer comentários ou informações adicionais relevantes para o revisor.
+<!--
+Closes #5
+Aqui estão todas as informações adicionais necessárias para o revisor, por exemplo, execute o Yarn antes de revisar.
+-->
 
 ## Screenshots
 
 | Before | After |
 | ------ | ----- |
-| Image  | Image |
+| N/A  | N/A |
+
+<!-- Caso quera adicionar alguma imagem, coloque representando o antes e depois substituindo "N/A">

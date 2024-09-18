@@ -87,11 +87,6 @@ Exemplo:
 
 - Exemplos de commits:
 
-- Um commit simples, sem rodapé:
-
-```
-feat(cadastro): adiciona integração com Gugou Sign-in
-```
 
 - Um commit com rodapé `fechando uma issue`:
 
