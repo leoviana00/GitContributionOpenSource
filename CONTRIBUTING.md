@@ -2,6 +2,14 @@
 
 👍 Primeiramente, obrigado por dedicar um tempo para contribuir! 🎉👍
 
+Este projeto foi feito criado para fins educacionais , praticar a abertura de issues e e pull-requests, utilização de templates, padronização de commits e branchs. Então sinta-se livre para contribuir. 
+
+Formas de contribuição:
+
+⚠️ Resolvendo, respondendo ou indicando issues
+
+⭐ Adicionando aos favoritos (star)
+
 > [!IMPORTANT]
 > A seguir, você pode encontrar algumas coisas para manter em mente antes de contribuir:
 
@@ -12,15 +20,19 @@
 
 ## Issues
 
-Cada trabalho tem que estar relacionado a um issue. 
-A issue terá um título ja pr-edefinido nos templates:
+Cada trabalho tem que estar relacionado a um issue. A issue terá um título ja pr-edefinido nos templates:
 
 - [Template - BUG REPORT](.github/ISSUE_TEMPLATE/bug_report.md)
 - [Template - FEATURE REPORT](.github/ISSUE_TEMPLATE/feature_request.md)
 
-
-Cada problema deve conter uma `label` que reflita a categoria do problema. 
-Se o problema for fechado sem desenvolvimento, use um desses rótulos:
+Exemplo:
+```
+[BUG] - Título do bug
+[SUGESTÃO] - Título da sugestão
+```
+> [!TIP]
+> Cada problema deve conter uma `label` que reflita a categoria do problema. 
+> Se o problema for fechado sem desenvolvimento, use um dos rótulos abaixo:
 
 - `wontfix`
 - `invalid`
@@ -31,7 +43,11 @@ Se o problema for fechado sem desenvolvimento, use um desses rótulos:
 
 ## Commits
 
-O padrão a ser seguido para os commits é baseado no [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0-beta.2/). Esse padrão é escrito da seguinte forma:
+> [!IMPORTANT]
+> O padrão a ser seguido para os commits é baseado no [conventional commit specification](https://www.conventionalcommits.org/en/v1.0.0-beta.2/). 
+
+> [!TIP]
+> Esse padrão é escrito da seguinte forma:
 
 ```
 <tipo>[(escopo opcional)]: <descrição>
@@ -95,7 +111,8 @@ BREAKING CHANGE: o método públic #adicionarAoCarrinho foi removido
 
 ## Branches
 
-Nomes de branches são compostos de 2 partes:
+> [!NOTE]
+> Nomes de branches são compostos de 2 partes:
 
 1. O type ou categoria do branch. Os types podem ser os seguintes:
 
@@ -121,11 +138,11 @@ Nomes de branches são compostos de 2 partes:
 | Tipo      |     ✅      | Tipo do commit que vai ser feito. Verificar a [lista de tipos permitidos](#lista-de-tipos-de-commits-permitidos) |
 | Descrição |     ✅      | O que o branch faz em si |
 
-
-- Exemplos: 
-
 > [!WARNING]
 > Sempre separados por `hífen`.
+
+> [!TIP]
+> Exemplos de utilização:
 
 ```
 feat-cadastro-veiculos
@@ -135,7 +152,8 @@ fix-busca-checklists
 
 ## Pull Requests
 
-Um PR tem que fechar pelo menos um problema e, de preferência, apenas um. Quanto menor a quantidade de trabalho em um PR, mais fácil é revisá-lo.
+> [!NOTE]
+> Um PR tem que fechar pelo menos um problema e, de preferência, apenas um. Quanto menor a quantidade de trabalho em um PR, mais fácil é revisá-lo.
 
 O corpo do PR deve começar com uma [mensagem que encerre as issues relacionadas ](https://docs.github.com/pt/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) e a descrição real em novas linhas.
 
