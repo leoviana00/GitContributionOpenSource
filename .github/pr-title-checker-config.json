@@ -6,7 +6,17 @@
   "CHECKS": {
     "prefixes": [
       "fix: ",
-      "feat: "
+      "feat: ",
+      "test: ",
+      "style: ",
+      "revert: ",
+      "refactor: ",
+      "perf: ",
+      "docs: ",
+      "ci:",
+      "chore: ",
+      "build: "
+
     ],
     "regexp": "^(build|chore|ci|docs|feat|fix|perf|refactor|revert|style|test)(\\([a-z-0-9]+\\))?: [\\w-\\[\\] ]+$"
   },
