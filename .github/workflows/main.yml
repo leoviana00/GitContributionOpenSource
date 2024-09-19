@@ -8,6 +8,7 @@ on:
 
 jobs:
   validate-and-comment:
+    permissions: write-all
     runs-on: ubuntu-latest
 
     steps:
