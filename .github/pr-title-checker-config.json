@@ -6,5 +6,11 @@
     "CHECKS": {
       "prefixes": ["fix: ", "feat: "],
       "regexp": "docs\\(v[0-9]\\): "
+    },
+    "MESSAGES": {
+      "success": "Tudo OK",
+      "failure": "Falha no teste CI",
+      "notice": ""
     }
   }
+  
