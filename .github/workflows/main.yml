@@ -18,7 +18,7 @@ jobs:
           ref: ${{ github.event.pull_request.head.sha }}
 
       - name: Validate PR
-        uses: leoviana00/GitTemplate
+        uses: thehanimo/pr-title-checker@v1.4.1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           remote_configuration_path: "https://raw.githubusercontent.com/leoviana00/GitTemplate/main/.github/pr-title-checker-config.json"
