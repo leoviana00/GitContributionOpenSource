@@ -7,7 +7,7 @@ on:
       - synchronize
 
 jobs:
-  publish:
+  validate-and-comment:
     runs-on: ubuntu-latest
 
     steps:
@@ -18,8 +18,8 @@ jobs:
 
       - name: Validate PR
         uses: actions/checkout@v4
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Comment PR on Success and Add Label [automerge]
         if: success()
@@ -27,7 +27,7 @@ jobs:
           REPO_URL=${{ github.event.pull_request.head.repo.html_url }}
           cat <<EOT > message.txt
           Aí sim hein! Seu PR foi aprovado 🥳 
-          Faremos o merge aqui em breve. Muito obrigado por fazer parte da nossa comunidade 🚀
+          Faremos o merge aqui em breve. Muito obrigado pela contribuição 🚀
           EOT
 
           gh pr comment ${{ github.event.pull_request.number }} --body-file=message.txt
