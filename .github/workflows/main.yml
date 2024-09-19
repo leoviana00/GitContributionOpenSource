@@ -33,7 +33,7 @@ jobs:
           gh pr comment ${{ github.event.pull_request.number }} --body-file=message.txt
           gh pr edit ${{ github.event.pull_request.number }} --add-label "automerge"
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_ENTERPRISE_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Comment PR on Failure
         if: failure()
@@ -51,7 +51,7 @@ jobs:
 
           gh pr comment ${{ github.event.pull_request.number }} --body-file=message.txt
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_ENTERPRISE_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   
   merge:
