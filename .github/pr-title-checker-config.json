@@ -9,7 +9,7 @@
     },
     "MESSAGES": {
       "success": "Tudo OK",
-      "failure": "Falha no teste CI",
+      "failure": "Problema com o padrão do commit",
       "notice": ""
     }
   }
