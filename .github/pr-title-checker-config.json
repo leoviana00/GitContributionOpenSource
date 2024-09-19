@@ -4,12 +4,12 @@
       "color": "FF0000"
     },
     "CHECKS": {
-      "prefixes": ["fix: ", "feat: "],
-      "regexp": "docs\\(v[0-9]\\): "
+      "prefixes": ["fix: ", "feat: "]
+      // "regexp": "docs\\(v[0-9]\\): "
     },
     "MESSAGES": {
       "success": "Tudo OK",
-      "failure": "Falha no teste CI",
+      "failure": "Problema com o padrão do commit",
       "notice": ""
     }
   }
