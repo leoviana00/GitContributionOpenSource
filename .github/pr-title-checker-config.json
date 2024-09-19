@@ -8,7 +8,7 @@
       "fix: ",
       "feat: "
     ],
-    "regexp": "/^(feat|fix|docs|style|refactor|test|build|ci|revert)(\\([a-z-0-9]+\\))?: [\\w-\\[\\] ]+$/g"
+    "regexp": "/^(feat|fix|docs|style|refactor|test|build|ci|revert)(\\([a-z0-9]+\\))?: [\\w-\\[\\] ]+$/g"
   },
   "MESSAGES": {
     "success": "Tudo OK",
