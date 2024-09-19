@@ -18,8 +18,8 @@ jobs:
 
       - name: Validate PR
         uses: actions/checkout@v4
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Comment PR on Success and Add Label [automerge]
         if: success()
