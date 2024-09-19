@@ -16,10 +16,10 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.sha }}
 
-      - name: Validate PR
-        uses: actions/checkout@v4
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # - name: Validate PR
+      #   uses: actions/checkout@v4
+      #   with:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # - name: Comment PR on Success and Add Label [automerge]
       #   if: success()
