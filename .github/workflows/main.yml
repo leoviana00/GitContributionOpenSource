@@ -8,6 +8,7 @@ on:
 
 jobs:
   validate-and-comment:
+    permissions: write-all
     runs-on: ubuntu-latest
 
     steps:
@@ -42,7 +43,7 @@ jobs:
           Olá! Parece que houve um problema com o seu PR 🧐 Aqui estão algumas coisas para verificar:
           - Seu PR deve seguir a convenção de commits.
 
-          Para obter mais detalhes e garantir que tudo esteja correto, confira nossas instruções nos arquivos [Guia do Contribuidor](https://github.com/leoviana00/GitTemplate/blob/main/CONTRIBUTING.md) e [CONTRIBUTING.md](https://github.com/digitalinnovationone/dio-lab-open-source/blob/main/CONTRIBUTING.md) (que, em geral, NÃO devem ser modificados, pois são arquivos genéricos de apoio).
+          Para obter mais detalhes e garantir que tudo esteja correto, confira nossas instruções nos arquivos [Guia do Contribuidor](https://github.com/leoviana00/GitTemplate/blob/main/CONTRIBUTING.md) (que, em geral, NÃO devem ser modificados, pois são arquivos genéricos de apoio).
 
           Se o seu PR tem um objetivo diferente, não se preocupe! Ele será analisado manualmente por nossa equipe, o que pode levar um pouco mais de tempo. Pedimos paciência nesse processo 🙏
 
@@ -62,4 +63,4 @@ jobs:
     - name: Merge PR
       uses: "pascalgn/automerge-action@v0.16.3"
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
