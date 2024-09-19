@@ -21,7 +21,7 @@ jobs:
         uses: leoviana00/GitTemplate
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          configuration_path: https://raw.githubusercontent.com/leoviana00/GitTemplate/main/.github/pr-title-checker-config.json
+          remote_configuration_path: "https://raw.githubusercontent.com/leoviana00/GitTemplate/main/.github/pr-title-checker-config.json"
 
       - name: Comment PR on Success and Add Label [automerge]
         if: success()
