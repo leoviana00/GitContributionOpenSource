@@ -8,7 +8,6 @@ on:
 
 jobs:
   validate-and-comment:
-    permissions: write-all
     runs-on: ubuntu-latest
 
     steps:
@@ -63,4 +62,4 @@ jobs:
     - name: Merge PR
       uses: "pascalgn/automerge-action@v0.16.3"
       env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
