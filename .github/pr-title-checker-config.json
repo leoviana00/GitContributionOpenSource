@@ -1,16 +1,18 @@
 {
-    "LABEL": {
-      "name": "titulo está fora do padrão",
-      "color": "FF0000"
-    },
-    "CHECKS": {
-      "prefixes": ["fix: ", "feat: "],
-      "regexp": "docs\\(v[0-9]\\): "
-    },
-    "MESSAGES": {
-      "success": "Tudo OK",
-      "failure": "Problema com o padrão do commit",
-      "notice": ""
-    }
+  "LABEL": {
+    "name": "titulo está fora do padrão",
+    "color": "FF0000"
+  },
+  "CHECKS": {
+    "prefixes": [
+      "fix: ",
+      "feat: "
+    ],
+    "regexp": "docs\\(v[0-9]\\): "
+  },
+  "MESSAGES": {
+    "success": "Tudo OK",
+    "failure": "Problema com o padrão do commit",
+    "notice": ""
   }
-  
+}
