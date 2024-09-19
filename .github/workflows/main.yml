@@ -21,19 +21,19 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Comment PR on Success and Add Label [automerge]
-        if: success()
-        run: |
-          REPO_URL=${{ github.event.pull_request.head.repo.html_url }}
-          cat <<EOT > message.txt
-          Aí sim hein! Seu PR foi aprovado 🥳 
-          Faremos o merge aqui em breve. Muito obrigado pela contribuição 🚀
-          EOT
+      # - name: Comment PR on Success and Add Label [automerge]
+      #   if: success()
+      #   run: |
+      #     REPO_URL=${{ github.event.pull_request.head.repo.html_url }}
+      #     cat <<EOT > message.txt
+      #     Aí sim hein! Seu PR foi aprovado 🥳 
+      #     Faremos o merge aqui em breve. Muito obrigado pela contribuição 🚀
+      #     EOT
 
-          gh pr comment ${{ github.event.pull_request.number }} --body-file=message.txt
-          gh pr edit ${{ github.event.pull_request.number }} --add-label "automerge"
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #     gh pr comment ${{ github.event.pull_request.number }} --body-file=message.txt
+      #     gh pr edit ${{ github.event.pull_request.number }} --add-label "automerge"
+      #   env:
+      #     GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   #     - name: Comment PR on Failure
   #       if: failure()
