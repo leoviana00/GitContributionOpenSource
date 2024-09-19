@@ -32,6 +32,20 @@ Repositórios para fins educacionais, com o propósito de praticar fluxos de tra
 - [x] Fechar Issues a partir de um PR
 - [ ] Aprovação de PR automatizada baseada em certas condições
 
+## Contribuidores
+[![Star](https://img.shields.io/github/stars/leoviana00/GitTemplate?style=social)](https://github.com/leoviana00/GitTemplate/stargazers)
+[![Forks](https://img.shields.io/github/forks/leoviana00/GitTemplate?style=social)](https://github.com/leoviana00/GitTemplate/forks)
+[![GitHub Issues](https://img.shields.io/github/issues/leoviana00/GitTemplate?style=social)](https://github.com/leoviana00/GitTemplate/issues/)
+
+
+### Membros da comunidade que já contribuiram:
+<a href="https://github.com/leoviana00/GitTemplate/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=leoviana00/GitTemplate"/>
+</a>
+
+##
+<div align="center">Feito por <a href="https://github.com/leoviana00">Léo</a>.</div>
+
 ## 📄 Referências
 
 - [Configurando Issues Template para o Repositório](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository)
