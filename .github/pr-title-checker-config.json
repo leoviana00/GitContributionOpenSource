@@ -8,7 +8,7 @@
       "fix: ",
       "feat: "
     ],
-    "regexp": "docs\\(v[0-9]\\): "
+    "regexp": "(build|chore|ci|docs|feat|fix|perf|refactor|revert|style|test)\\([A-Za-z0-9]\\): "
   },
   "MESSAGES": {
     "success": "Tudo OK",
