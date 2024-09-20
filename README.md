@@ -19,12 +19,6 @@
 
 Repositórios para fins educacionais, com o propósito de colocar em prática a contribuição em projetos. Alem disso trabalhar fluxos de trabalho com o git, padronização de branchs e commits, issues e outros.
 
-## 💡 Laboratório prático
-
->[!NOTE]
-> Para realização do laboratório prático que visa trabalhar o fluxo de contribuição em projetos, leia o [`Guia do Contribuidor`](https://github.com/leoviana00/GitTemplate/blob/main/CONTRIBUTING.md)
-> [`Contribuição`](https://github.com/leoviana00/GitTemplate/blob/main/CONTRIBUTING.md#contribui%C3%A7%C3%A3o)
-
 ## 👣 Roadmap
 
 - [x] Padronização de Commits
@@ -38,6 +32,12 @@ Repositórios para fins educacionais, com o propósito de colocar em prática a 
 - [x] Aprovação de PR automatizada baseada em validação do título do PR
 - [x] Guia do Contribuidor
 - [x] Código de conduta
+
+## 💡 Laboratório prático - Contribuindo para o projeto
+
+>[!NOTE]
+> Para realização do laboratório prático que visa trabalhar o fluxo de contribuição em projetos, leia o [`Guia do Contribuidor`](https://github.com/leoviana00/GitTemplate/blob/main/CONTRIBUTING.md)
+> [`Contribuição`](https://github.com/leoviana00/GitTemplate/blob/main/CONTRIBUTING.md#contribui%C3%A7%C3%A3o)
 
 ## 👥 Contribuidores
 [![Star](https://img.shields.io/github/stars/leoviana00/GitTemplate?style=social)](https://github.com/leoviana00/GitTemplate/stargazers)
