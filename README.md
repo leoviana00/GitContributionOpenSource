@@ -45,9 +45,9 @@ Repositórios para fins educacionais, com o propósito de colocar em prática a 
 [![GitHub Issues](https://img.shields.io/github/issues/leoviana00/GitTemplate?style=social)](https://github.com/leoviana00/GitTemplate/issues/)
 
 
-### Membros da comunidade que já contribuiram:
+### Membros da comunidade que já contribuíram:
 <a href="https://github.com/leoviana00/GitTemplate/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=leoviana00/GitTemplate"/>
+  <img src="https://contrib.rocks/image?repo=leoviana00/GitTemplate&max=500"/>
 </a>
 
 ##
