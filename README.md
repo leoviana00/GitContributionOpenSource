@@ -37,7 +37,7 @@ Repositórios para fins educacionais, com o propósito de colocar em prática a 
 
 >[!NOTE]
 > Para realização do laboratório prático que visa trabalhar o fluxo de contribuição em projetos, leia o [`Guia do Contribuidor`](https://github.com/leoviana00/GitTemplate/blob/main/CONTRIBUTING.md)
-> [`Contribuição`](https://github.com/leoviana00/GitTemplate/blob/main/CONTRIBUTING.md#contribui%C3%A7%C3%A3o)
+> Como contribuir: [`Contribuição`](https://github.com/leoviana00/GitTemplate/blob/main/CONTRIBUTING.md#contribui%C3%A7%C3%A3o)
 
 ## 👥 Contribuidores
 [![Star](https://img.shields.io/github/stars/leoviana00/GitTemplate?style=social)](https://github.com/leoviana00/GitTemplate/stargazers)
