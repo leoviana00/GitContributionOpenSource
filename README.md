@@ -15,24 +15,31 @@
   <img alt="github" src="data/pr-issues-templates.png">
 </p>
 
-## 💡 Projeto
+## 🎯 Projeto
 
-Repositórios para fins educacionais, com o propósito de praticar fluxos de trabalho com o git, padronização de branchs e commits, issues e outros.
+Repositórios para fins educacionais, com o propósito de colocar em prática a contribuição em projetos. Alem disso trabalhar fluxos de trabalho com o git, padronização de branchs e commits, issues e outros.
+
+## 💡 Laboratório prático
+
+>[!NOTE]
+> Para realização do laboratório prático que visa trabalhar o fluxo de contribuição em projetos, leia o [`Guia do Contribuidor`](https://github.com/leoviana00/GitTemplate/blob/main/CONTRIBUTING.md)
+> [`Contribuição`](https://github.com/leoviana00/GitTemplate/blob/main/CONTRIBUTING.md#contribui%C3%A7%C3%A3o)
 
 ## 👣 Roadmap
 
 - [x] Padronização de Commits
 - [x] Padronização de Branchs
-- [x] Documentação
 - [x] Configuração de Issues Templates para o repositório
     - [x] Bug Report
     - [x] Feature Report
 - [x] Configuração de Pull Request Template para o repositório
 - [x] Abertura de Issues
 - [x] Fechar Issues a partir de um PR
-- [ ] Aprovação de PR automatizada baseada em certas condições
+- [x] Aprovação de PR automatizada baseada em validação do título do PR
+- [x] Guia do Contribuidor
+- [x] Código de conduta
 
-## Contribuidores
+## 👥 Contribuidores
 [![Star](https://img.shields.io/github/stars/leoviana00/GitTemplate?style=social)](https://github.com/leoviana00/GitTemplate/stargazers)
 [![Forks](https://img.shields.io/github/forks/leoviana00/GitTemplate?style=social)](https://github.com/leoviana00/GitTemplate/forks)
 [![GitHub Issues](https://img.shields.io/github/issues/leoviana00/GitTemplate?style=social)](https://github.com/leoviana00/GitTemplate/issues/)
