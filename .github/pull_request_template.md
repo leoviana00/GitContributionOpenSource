@@ -1,6 +1,5 @@
 ## Descrição
 
-Atualização do Guia de Contribuição
 <!-- Descrição da alteração que está sendo proposta. -->
 
 ## Tipo de alteração
