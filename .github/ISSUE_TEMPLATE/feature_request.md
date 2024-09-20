@@ -19,5 +19,9 @@ Uma descrição clara e concisa de quaisquer soluções ou recursos alternativos
 **Contexto adicional**
 Adicione qualquer outro contexto ou capturas de tela sobre a solicitação de recurso aqui.
 
+**Você tem interesse em trabalhar nisso?**
+- [] Sim
+- [] Não
+
 **Screenshots**
 Adicionar screenshots caso seja necessário.
