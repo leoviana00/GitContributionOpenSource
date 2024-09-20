@@ -3,5 +3,3 @@
 **Testing PR 1**
 
 **Contribuição 1**
-
-**Contribuição 2**
