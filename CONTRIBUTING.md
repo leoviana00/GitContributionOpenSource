@@ -7,11 +7,14 @@
 👍 Primeiramente, obrigado por dedicar um tempo para contribuir! 🎉👍
 
 Este projeto adere ao [código de conduta](https://github.com/leoviana00/GitTemplate/blob/main/CODE_OF_CONDUCT.md). Ao participar, espera-se que você cumpra este código.
-O projeto foi criado para fins educacionais , praticar a abertura de issues e e pull-requests, configuração e utilização de issues templates, padronização de commits e branchs. Então sinta-se livre para contribuir. 
+O projeto foi criado para fins educacionais , tendo como objetivo principal praticar a a contribuição em projetos.
+Alem disso, praticar abertura de issues, pull-requests, configuração e utilização de issues templates, padronização de commits e branchs. Então sinta-se livre para contribuir. 
 
 Formas de contribuição:
 
-⚠️ Resolvendo, respondendo ou indicando **issues**
+❗ Resolvendo, respondendo ou indicando **issues**
+
+📄 Realizando uma alteração no arquivo `contribution_project` através de um **fork**
 
 ⭐ Adicionando aos favoritos (**star**)
 
@@ -21,8 +24,9 @@ Formas de contribuição:
 1. [Issues](#issues)
 2. [Commits](#commits)
 3. [Lista de commits permitidos](#lista-de-tipos-de-commits-permitidos)
-3. [Branches](#branches)
-4. [Pull Requests](#pull-requests)
+4. [Branches](#branches)
+5. [Pull Requests](#pull-requests)
+6. [Praticando a contribuição com projetos](#contribuição)
 
 ## Issues
 
@@ -143,6 +147,30 @@ BREAKING CHANGE: o método públic #adicionarAoCarrinho foi removido
 | Tipo      |     ✅      | Tipo do commit que vai ser feito. Verificar a [lista de tipos permitidos](#lista-de-tipos-de-commits-permitidos) |
 | Descrição |     ✅      | O que o branch faz em si |
 
+### Criação de branchs
+
+- Se quiser criar o branch e ao mesmo tempo já trocar para ele, pode usar:
+
+```bash
+git checkout -b novobranch
+```
+- e quiser criar o branch a partir de outro existente (não necessariamente o atual):
+
+```bash
+git checkout -b novobranch branch_existente
+```
+
+- Trocar para uma outra branch
+
+```bash
+git checkout NovaBrach
+```
+
+- Verificar branchs existentes
+
+```bash
+git branch
+```
 
 
 ## Pull Requests
@@ -192,3 +220,67 @@ Aqui estão todas as informações adicionais necessárias para o revisor, por e
 > [!NOTE]
 > Em casos no qual o `PR` tem relação cpm alguma issue:
 > Em comentários adicionais, inicie com uma [mensagem que encerre as issues relacionadas ](https://docs.github.com/pt/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) e abaixo dela, em uma nova alinha adicione quaisquer comentários ou informações adicionais relevantes para o revisor.
+
+## Contribuição
+
+### 1 - Fork do repositório
+
+Acesse a página principal do repositório e clique no botão "Fork" no canto superior direito da página.
+Para mais informações. [Como criar um fork](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
+
+### 2 - Clone localmente
+
+Comando `git clone` seguido da URL do seu fork para clonar o seu repositório localmente. 
+Por exemplo:
+
+```bash
+git clone https://github.com/SEU_USERNAME/GitTemplate.git
+```
+Pressione enter, e uma cópia do seu fork no GitHub será criada localmente.
+Para mais informações [Clonar repositório localmente](https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository)
+
+### 3 - Criar uma **branch** 
+Comando para criação de branch
+
+```bash
+git checkout -b feature-contribuicao
+```
+>[!IMPORTANT]
+>Para criar e alternar para a nova branch siga as orientações de [`Criação de branchs`](#branches)
+
+### 4 - Alteração de um arquivo
+
+Na raiz do projeto abra o [arquivo](https://github.com/leoviana00/GitTemplate/blob/main/contribution_project.md) e adicione uma linha:
+Exemplo: `**Testing PR NUMERO QUALQUER**` e feche o arquivo.
+
+### 5 - Adicione suas alterações à "staging area" 
+
+Comando:
+
+```bash
+git add contribution_project.md
+```
+Para mais informações sobre [Staging Area](https://petcomputacaoufrgs.github.io/intro-ao-git/staging-area.html)
+
+### 6 - Crie um Commit
+Crie um commit e adicione a mensagem indicando a alteração realizada:
+```bash
+git commit -m "docs(contribuicao): Update do arquivo contribuition_project"
+```
+>[!IMPORTANT]
+> Verifique o bloco de  [`Commits permitidos`](#lista-de-tipos-de-commits-permitidos) para escrever a mensagem do seu commit de forma clara e padronizada.
+
+### 7 - Envie as Alterações
+Envie as alterações realizadas no seu repositório local para a branch `feature-contribuicao` no seu repositório remoto com o comando:
+```bash
+git push origin feature-contribuicao
+```
+
+### 8 - Crie um **Pull Request**.
+
+Atente-se para a seguir as orientações para a contribuição, principalmente:
+- Seu PR deve modificar apenas o arquivo contribution_project.md (dê uma olhadinha na aba "Files changed");
+- O título do commit deve atender a definição de nomenclatura descrita em [`Lista de commits permitidos`](#lista-de-tipos-de-commits-permitidos).
+
+>[!NOTE]
+> Caso não saiba como criar uma solicitação de pull request, siga as orientações definidas em [`Pull Requests`](#pull-requests)
