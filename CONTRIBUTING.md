@@ -20,6 +20,7 @@ Formas de contribuição:
 
 1. [Issues](#issues)
 2. [Commits](#commits)
+3. [Lista de commits permitidos](#lista-de-tipos-de-commits-permitidos)
 3. [Branches](#branches)
 4. [Pull Requests](#pull-requests)
 
@@ -147,7 +148,6 @@ BREAKING CHANGE: o método públic #adicionarAoCarrinho foi removido
 ## Pull Requests
 
 > [!NOTE]
-> Um PR tem que fechar pelo menos um problema e, de preferência, apenas um. Quanto menor a quantidade de trabalho em um PR, mais fácil é revisá-lo.
 > O corpo do PR deve conter as respostas baseadas no [pull-request template](https://github.com/leoviana00/GitTemplate/blob/main/.github/pull_request_template.md)
 > Como criar uma solicitação de Pull Request: [Documentação](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
 
@@ -173,8 +173,9 @@ Descrição da alteração que está sendo proposta.
 
 ## Comentários adicionais
 
-Mensagem que encerre a issue relacionada
 Adicione aqui quaisquer comentários ou informações adicionais relevantes para o revisor.
+
+Caso o PR possua relação com alguma issue aberta, usar o modelo de descrição abaixo, desse moda fechando/resolvendo a issue relacionada.
 
 Ex: 
 Closes #5
@@ -189,8 +190,5 @@ Aqui estão todas as informações adicionais necessárias para o revisor, por e
 ```
 
 > [!NOTE]
+> Em casos no qual o `PR` tem relação cpm alguma issue:
 > Em comentários adicionais, inicie com uma [mensagem que encerre as issues relacionadas ](https://docs.github.com/pt/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) e abaixo dela, em uma nova alinha adicione quaisquer comentários ou informações adicionais relevantes para o revisor.
-
-### Checks
-
-Cada `PR` precisa ser revisado antes de poder ser mesclado.
