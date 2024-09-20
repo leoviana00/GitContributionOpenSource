@@ -1,5 +1,6 @@
 ## Descrição
 
+Atualização do Guia de Contribuição
 <!-- Descrição da alteração que está sendo proposta. -->
 
 ## Tipo de alteração
@@ -17,7 +18,11 @@
 
 ## Comentários adicionais
 
+- [ ] Não possui relação com Issues
+- [ ] Vincular o pull request a uma issue usando palavra chave [Pull request vinculado a uma issue](https://docs.github.com/pt/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword)
+
 <!--
+## Em casos de viculação do pr a uma issue, utilize o modelo de descrição abaixo:
 Closes #5
 Aqui estão todas as informações adicionais necessárias para o revisor, por exemplo, execute o Yarn antes de revisar.
 -->
