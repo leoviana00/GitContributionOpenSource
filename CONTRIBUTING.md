@@ -30,18 +30,18 @@ Formas de contribuição:
 
 ## Issues
 
-Cada trabalho tem que estar relacionado a um issue. A issue terá um título ja pr-edefinido nos templates:
+Para abertura de issues, podem ser seguidos doi modelos ja estabelecidos em template:
 
-- [Template - BUG REPORT](.github/ISSUE_TEMPLATE/bug_report.md)
-- [Template - FEATURE REPORT](.github/ISSUE_TEMPLATE/feature_request.md)
+1. Em casos de report de bug, utilizar o template: [Template - BUG REPORT](.github/ISSUE_TEMPLATE/bug_report.md)
+2. Em casos de Solicitação de uma nova funcionalidade, uma sugestão em si, utilizar o template: [Template - FEATURE REPORT](.github/ISSUE_TEMPLATE/feature_request.md)
 
-Exemplo:
+
+O título da issue deve-se seguir o modelo sugerido no template - Exemplo:
 ```
 [BUG] - Título do bug
 [SUGESTÃO] - Título da sugestão
 ```
 > [!TIP]
-> Cada problema deve conter uma `label` que reflita a categoria do problema. 
 > Se o problema for fechado sem desenvolvimento, use um dos rótulos abaixo:
 
 - `wontfix`
@@ -49,6 +49,7 @@ Exemplo:
 - `duplicate`
 
 > [!NOTE]
+> Em casos onde você trabalhou na solução de uma issue:
 > Quando uma tarefa for concluída, crie uma [solicitação de pull Pull Request](#pull-requests) que feche a issue.
 
 ## Commits
@@ -250,7 +251,7 @@ git checkout -b feature-contribuicao
 
 ### 4 - Alteração de um arquivo
 
-Na raiz do projeto abra o [arquivo](https://github.com/leoviana00/GitTemplate/blob/main/contribution_project.md) e adicione uma linha:
+Na raiz do projeto abra o arquivo [contribution_project](https://github.com/leoviana00/GitTemplate/blob/main/contribution_project.md) e adicione uma linha:
 Exemplo: `**Testing PR NUMERO QUALQUER**` e feche o arquivo.
 
 ### 5 - Adicione suas alterações à "staging area" 
