@@ -25,7 +25,7 @@ Itens desenvolvidos para compor o projeto.
 
 - [x] [Padronização de Commits](https://github.com/leoviana00/GitContributionOpenSource/blob/main/CONTRIBUTING.md#commits) 
 - [x] [Padronização de Branchs](https://github.com/leoviana00/GitContributionOpenSource/blob/main/CONTRIBUTING.md#branches) 
-- [x] Configuração de Issues Templates para o repositório
+- [x] [Configuração de Issues Templates para o repositório](https://github.com/leoviana00/GitContributionOpenSource/tree/main/.github/ISSUE_TEMPLATE)
     - [x] [Bug Report](https://github.com/leoviana00/GitContributionOpenSource/issues/new?assignees=&labels=bug&projects=&template=bug_report.md&title=%5BBUG%5D+-+)
     - [x] [Feature Report](https://github.com/leoviana00/GitContributionOpenSource/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.md&title=%5BSugest%C3%A3o%5D+-+)
 - [x] [Configuração de Pull Request Template para o repositório](https://github.com/leoviana00/GitContributionOpenSource/blob/main/.github/pull_request_template.md)
