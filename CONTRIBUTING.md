@@ -3,6 +3,7 @@
 [![Star](https://img.shields.io/github/stars/leoviana00/GitContributionOpenSource?style=social)](https://github.com/leoviana00/GitContributionOpenSource/stargazers)
 [![Forks](https://img.shields.io/github/forks/leoviana00/GitContributionOpenSource?style=social)](https://github.com/leoviana00/GitContributionOpenSource/forks)
 [![GitHub Issues](https://img.shields.io/github/issues/leoviana00/GitContributionOpenSource?style=social)](https://github.com/leoviana00/GitContributionOpenSource/issues/)
+[![GitHub Discussions](https://img.shields.io/github/discussions/leoviana00/GitContributionOpenSource?style=social)](https://github.com/leoviana00/GitContributionOpenSource/discussions/)
 
 👍 Primeiramente, obrigado por dedicar um tempo para contribuir! 🎉👍
 
