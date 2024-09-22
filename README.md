@@ -1,7 +1,7 @@
 <h1 align="center">GitContributionOpenSource</h1>
 
 <p align="center">
-  <img alt="Git" src="https://img.shields.io/static/v1?label=Github&message=GIT&color=8257E5&labelColor=000000"  />
+  <img alt="Git" src="https://img.shields.io/static/v1?label=Contribuição&message=GIT&color=8257E5&labelColor=000000"  />
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
 </p>
 
@@ -50,6 +50,7 @@ Itens desenvolvidos para compor o projeto.
 [![Star](https://img.shields.io/github/stars/leoviana00/GitContributionOpenSource?style=social)](https://github.com/leoviana00/GitContributionOpenSource/stargazers)
 [![Forks](https://img.shields.io/github/forks/leoviana00/GitContributionOpenSource?style=social)](https://github.com/leoviana00/GitContributionOpenSource/forks)
 [![GitHub Issues](https://img.shields.io/github/issues/leoviana00/GitContributionOpenSource?style=social)](https://github.com/leoviana00/GitContributionOpenSource/issues/)
+[![GitHub Discussions](https://img.shields.io/github/discussions/leoviana00/GitContributionOpenSource?style=social)](https://github.com/leoviana00/GitContributionOpenSource/discussions/)
 
 
 ### Membros da comunidade que já contribuíram:
