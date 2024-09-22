@@ -1,19 +1,21 @@
 # Security Policy
 
-## Supported Versions
-
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
-
-| Version | Supported          |
-| ------- | ------------------ |
-| 0.0.x   | :white_check_mark: |
-| < 0.0   | :x:                |
-
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+Use [the Vulnerability Disclosure issue template](https://github.com/leoviana00/GitContributionOpenSource/security/advisories/new) to report a new security vulnerability.
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+- Sempre rotule como `~security ` no mínimo. Se você estiver relatando uma vulnerabilidade (ou algo que você suspeita que possa ser uma), use o [modelo de Divulgação de Vulnerabilidade](https://github.com/leoviana00/GitContributionOpenSource/security/advisories/new) ao criar o problema
+
+- Adicione quaisquer rótulos adicionais que você saiba que se aplicam. Rótulos adicionais serão aplicados pela equipe de segurança e outros funcionários de engenharia, mas ajudarão no processo de triagem:
+
+    - `~"type::bug"`, `~"type::maintenance"`, ou `~"type::feature"` se for o caso 
+    
+    - Rótulos do ciclo de vida da equipe ou DevOps
+
+    - `~customerse` o problema for resultado de um relatório do cliente
+
+    - `~internal customer` deve ser adicionado pelos membros da equipe quando o problema afeta as operações do GitLab.
+
+    - `~dependency update` se o problema estiver relacionado à atualização para versões mais recentes das dependências exigidas pelo GitLab.
+
+    - `~featureflag::` rótulos com escopo definido se o problema for para uma funcionalidade por trás de um sinalizador de recurso
