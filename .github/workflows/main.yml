@@ -23,7 +23,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           remote_configuration_path: "https://raw.githubusercontent.com/leoviana00/GitContributionOpenSource/main/.github/pr-title-checker-config.json"
 
-
       - name: Validate PR Changed files
         run: |
           AUTHOR_NAME="${{ github.event.pull_request.user.login }}"
@@ -54,9 +53,8 @@ jobs:
         run: |
           REPO_URL=${{ github.event.pull_request.head.repo.html_url }}
           AUTHOR_NAME=${{ github.event.pull_request.user.login }}
-          TITLE_PR=${{ github.event.pull_request.title }}
           cat <<EOT > message.txt
-          Aí sim hein $AUTHOR_NAME ! Seu PR $TITLE_PR foi aprovado 🥳 
+          Aí sim hein $AUTHOR_NAME ! Seu PR foi aprovado 🥳 
           Faremos o merge aqui em breve. Muito obrigado pela contribuição 🚀
           EOT
 
@@ -70,12 +68,10 @@ jobs:
         run: |
           AUTHOR_NAME=${{ github.event.pull_request.user.login }}
           cat <<EOT > message.txt
-          Olá $AUTHOR_NAME ! Parece que houve um problema com o seu PR $TITLE_PR 🧐 Aqui estão algumas coisas para verificar:
+          Olá $AUTHOR_NAME ! Parece que houve um problema com o seu PR 🧐 Aqui estão algumas coisas para verificar:
+          - Seu PR deve seguir a convenção de commits.
 
-          - Seu PR deve seguir a [convenção de commits](https://github.com/leoviana00/GitContributionOpenSource/blob/main/CONTRIBUTING.md#lista-de-tipos-de-commits-permitidos).
-          - Seu PR deve modificar **apenas** o arquivo \`contribution_project.md` (dê uma olhadinha na aba _"Files changed"_);
-
-          Para obter mais detalhes e garantir que tudo esteja correto, confira nossas instruções no [Guia do Contribuidor](https://github.com/leoviana00/GitTemplate/blob/main/CONTRIBUTING.md) (que, em geral, NÃO devem ser modificados, pois são arquivos genéricos de apoio).
+          Para obter mais detalhes e garantir que tudo esteja correto, confira nossas instruções nos arquivos [Guia do Contribuidor](https://github.com/leoviana00/GitTemplate/blob/main/CONTRIBUTING.md) (que, em geral, NÃO devem ser modificados, pois são arquivos genéricos de apoio).
 
           Se o seu PR tem um objetivo diferente, não se preocupe! Ele será analisado manualmente por nossa equipe, o que pode levar um pouco mais de tempo. Pedimos paciência nesse processo 🙏
 
