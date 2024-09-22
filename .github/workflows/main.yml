@@ -81,6 +81,7 @@ jobs:
           EOT
 
           gh pr comment ${{ github.event.pull_request.number }} --body-file=message.txt
+          gh pr edit ${{ github.event.pull_request.number }} --add-label "file not allowed"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
