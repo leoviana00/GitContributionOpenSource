@@ -36,39 +36,37 @@ jobs:
       # #   env:
       # #     GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # - name: Validate PR Changed files
-      #   run: |
-      #     AUTHOR_NAME="${{ github.event.pull_request.user.login }}"
-      #     FILE_PATH="contribution_project.md"
+      - name: Validate PR Changed files
+        run: |
+          AUTHOR_NAME="${{ github.event.pull_request.user.login }}"
+          FILE_PATH="contribution_project.md"
           
-      #     # Obtém a lista de arquivos modificados usando a CLI do GitHub
-      #     files_changed=$(gh api repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files --paginate | jq -r '.[].filename')
+          # Obtém a lista de arquivos modificados usando a CLI do GitHub
+          files_changed=$(gh api repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files --paginate | jq -r '.[].filename')
       
-      #     # Lista os arquivos modificados para fins de depuração
-      #     echo "Changed files:"
-      #     echo "$files_changed"
+          # Lista os arquivos modificados para fins de depuração
+          echo "Changed files:"
+          echo "$files_changed"
           
-      #     # Conta quantos arquivos foram modificados
-      #     NUM_CHANGED_FILES=$(echo "$files_changed" | wc -l)
+          # Conta quantos arquivos foram modificados
+          NUM_CHANGED_FILES=$(echo "$files_changed" | wc -l)
           
-      #     # Verifica se apenas o arquivo esperado foi modificado
-      #     if [[ "$NUM_CHANGED_FILES" -eq 1 && "$files_changed" == "$FILE_PATH" ]]; then
-      #         echo "PR é válido, apenas o arquivo esperado foi alterado."
-      #     else
-      #         echo "ERRO: PR inválido. Mais arquivos ou arquivos diferentes do esperado foram alterados."
-      #         exit 1
-      #     fi
-      #   env:
-      #     GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Verifica se apenas o arquivo esperado foi modificado
+          if [[ "$NUM_CHANGED_FILES" -eq 1 && "$files_changed" == "$FILE_PATH" ]]; then
+              echo "PR é válido, apenas o arquivo esperado foi alterado."
+          else
+              echo "ERRO: PR inválido. Mais arquivos ou arquivos diferentes do esperado foram alterados."
+              exit 1
+          fi
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Comment PR on Success and Add Label [automerge]
         if: success()
         run: |
-          AUTHOR_NAME=${{ github.event.pull_request.user.login }}
-          TITLE_PR=${{ github.event.pull_request.title }}
           REPO_URL=${{ github.event.pull_request.head.repo.html_url }}
           cat <<EOT > message.txt
-          Aí sim hein $AUTHOR_NAME ! Seu PR foi aprovado 🥳 
+          Aí sim hein `${{ github.event.pull_request.user.login }}` ! Seu PR foi aprovado 🥳 
           Faremos o merge aqui em breve. Muito obrigado pela contribuição 🚀
           EOT
 
