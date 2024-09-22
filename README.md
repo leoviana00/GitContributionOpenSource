@@ -7,7 +7,9 @@
 
 <p align="center">
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-laboratório-prático---contribuindo-para-o-projeto">Contribuindo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-roadmap">Roadmap</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-contribuidores">Contribuidores</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-referências">Referências</a>
 </p>
 
@@ -18,6 +20,15 @@
 ## 🎯 Projeto
 
 Repositórios para fins educacionais, com o propósito de colocar em prática a contribuição em projetos. Alem disso trabalhar fluxos de trabalho com o git, padronização de branchs e commits, issues e outros.
+
+## 💡 Laboratório prático - Contribuindo para o projeto
+
+>[!NOTE]
+> Para realização do laboratório prático que visa trabalhar o fluxo de contribuição em projetos:
+  - Passo a passo de [`Como Contribuir`](https://github.com/leoviana00/GitContributionOpenSource/blob/main/CONTRIBUTING.md#contribui%C3%A7%C3%A3o)
+  - Leia o [`Guia do Contribuidor`](https://github.com/leoviana00/GitContributionOpenSource/blob/main/CONTRIBUTING.md)
+  - Leia o [`Código de Conduta`](https://github.com/leoviana00/GitContributionOpenSource/blob/main/CODE_OF_CONDUCT.md)
+
 
 ## 👣 Roadmap
 
@@ -34,14 +45,6 @@ Itens desenvolvidos para compor o projeto.
 - [x] [Aprovação de PR automatizada baseada em validação do título do PR](https://github.com/leoviana00/GitContributionOpenSource/blob/main/.github/workflows/main.yml)
 - [x] [Guia do Contribuidor](https://github.com/leoviana00/GitContributionOpenSource/blob/main/CONTRIBUTING.md)
 - [x] [Código de conduta](https://github.com/leoviana00/GitContributionOpenSource/blob/main/CODE_OF_CONDUCT.md)
-
-## 💡 Laboratório prático - Contribuindo para o projeto
-
->[!NOTE]
-> Para realização do laboratório prático que visa trabalhar o fluxo de contribuição em projetos:
-- Leia o [`Guia do Contribuidor`](https://github.com/leoviana00/GitContributionOpenSource/blob/main/CONTRIBUTING.md)
-- Leia o [`Código de Conduta`](https://github.com/leoviana00/GitContributionOpenSource/blob/main/CODE_OF_CONDUCT.md)
-- Passo a passo de [`Como Contribuir`](https://github.com/leoviana00/GitContributionOpenSource/blob/main/CONTRIBUTING.md#contribui%C3%A7%C3%A3o)
 
 ## 👥 Contribuidores
 [![Star](https://img.shields.io/github/stars/leoviana00/GitContributionOpenSource?style=social)](https://github.com/leoviana00/GitContributionOpenSource/stargazers)
