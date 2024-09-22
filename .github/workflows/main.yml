@@ -32,10 +32,11 @@ jobs:
           Aí sim hein $AUTHOR_NAME ! O título do seu PR $TITLE_PR está de acordo com o padrão!!! 🥳 
           Vamos realizar a validação do arquivo modificado.
           EOT
+          gh pr comment ${{ github.event.pull_request.number }} --body-file=message.txt
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Validate PR
+      - name: Validate PR Changed files
         run: |
           AUTHOR_NAME="${{ github.event.pull_request.user.login }}"
           FILE_PATH="contribution_project.md"
