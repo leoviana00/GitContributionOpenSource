@@ -1,12 +1,12 @@
 ## Contribuindo para o Projeto
 
-[![Star](https://img.shields.io/github/stars/leoviana00/GitTemplate?style=social)](https://github.com/leoviana00/GitTemplate/stargazers)
-[![Forks](https://img.shields.io/github/forks/leoviana00/GitTemplate?style=social)](https://github.com/leoviana00/GitTemplate/forks)
-[![GitHub Issues](https://img.shields.io/github/issues/leoviana00/GitTemplate?style=social)](https://github.com/leoviana00/GitTemplate/issues/)
+[![Star](https://img.shields.io/github/stars/leoviana00/GitContributionOpenSource?style=social)](https://github.com/leoviana00/GitContributionOpenSource/stargazers)
+[![Forks](https://img.shields.io/github/forks/leoviana00/GitContributionOpenSource?style=social)](https://github.com/leoviana00/GitContributionOpenSource/forks)
+[![GitHub Issues](https://img.shields.io/github/issues/leoviana00/GitContributionOpenSource?style=social)](https://github.com/leoviana00/GitContributionOpenSource/issues/)
 
 👍 Primeiramente, obrigado por dedicar um tempo para contribuir! 🎉👍
 
-Este projeto adere ao [código de conduta](https://github.com/leoviana00/GitTemplate/blob/main/CODE_OF_CONDUCT.md). Ao participar, espera-se que você cumpra este código.
+Este projeto adere ao [código de conduta](https://github.com/leoviana00/GitContributionOpenSource/blob/main/CODE_OF_CONDUCT.md). Ao participar, espera-se que você cumpra este código.
 O projeto foi criado para fins educacionais , tendo como objetivo principal praticar a a contribuição em projetos.
 Alem disso, praticar abertura de issues, pull-requests, configuração e utilização de issues templates, padronização de commits e branchs. Então sinta-se livre para contribuir. 
 
@@ -177,7 +177,7 @@ git branch
 ## Pull Requests
 
 > [!NOTE]
-> O corpo do PR deve conter as respostas baseadas no [pull-request template](https://github.com/leoviana00/GitTemplate/blob/main/.github/pull_request_template.md)
+> O corpo do PR deve conter as respostas baseadas no [pull-request template](https://github.com/leoviana00/GitContributionOpenSource/blob/main/.github/pull_request_template.md)
 > Como criar uma solicitação de Pull Request: [Documentação](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
 
 - Corpo do Pull Request Template:
@@ -198,7 +198,7 @@ Descrição da alteração que está sendo proposta.
 
 - [ ] Minhas alterações não deletam partes do projeto
 - [ ] Minhas alterações não introduzem novos problemas
-- [ ] Minha contribuição está de acordo com o [Guia de Contribuição](https://github.com/leoviana00/GitTemplate/blob/main/CONTRIBUTING.md)
+- [ ] Minha contribuição está de acordo com o [Guia de Contribuição](https://github.com/leoviana00/GitContributionOpenSource/blob/main/CONTRIBUTING.md)
 
 ## Comentários adicionais
 
@@ -234,11 +234,38 @@ Para mais informações. [Como criar um fork](https://docs.github.com/pt/pull-re
 Comando `git clone` seguido da URL do seu fork para clonar o seu repositório localmente. 
 Por exemplo:
 
+- Em seguida, adicione seu fork como um projeto local:
+
 ```bash
-git clone https://github.com/SEU_USERNAME/GitTemplate.git
+git clone https://github.com/SEU_USERNAME/GitContributionOpenSource.git
 ```
 Pressione enter, e uma cópia do seu fork no GitHub será criada localmente.
 Para mais informações [Clonar repositório localmente](https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository)
+Um pouco mais sobre repositórios remotos: [About remote repositories](https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories)
+
+- Em seguida, vá para sua pasta local
+```bash
+cd GitContributionOpenSource
+```
+
+- Adicionar controles remotos git:
+
+```bash
+git remote add fork https://github.com/YOUR-USERNAME/GitContributionOpenSource.git
+git remote add upstream https://github.com/leoviana00/GitContributionOpenSource.git
+```
+
+- Agora você pode verificar se tem seus dois controles remotos git:
+
+```bash
+git remote -v
+```
+
+- Com o objetivo de se manter atualizado com o repositório central:
+
+```bash
+git pull upstream main
+```
 
 ### 3 - Criar uma **branch** 
 Comando para criação de branch
@@ -246,12 +273,13 @@ Comando para criação de branch
 ```bash
 git checkout -b feature-contribuicao
 ```
+S
 >[!IMPORTANT]
 >Para criar e alternar para a nova branch siga as orientações de [`Criação de branchs`](#branches)
 
 ### 4 - Alteração de um arquivo
 
-Na raiz do projeto abra o arquivo [contribution_project](https://github.com/leoviana00/GitTemplate/blob/main/contribution_project.md) e adicione uma linha:
+Na raiz do projeto abra o arquivo [contribution_project](https://github.com/leoviana00/GitContributionOpenSource/blob/main/contribution_project.md) e adicione uma linha:
 Exemplo: `**Testing PR NUMERO QUALQUER**` e feche o arquivo.
 
 ### 5 - Adicione suas alterações à "staging area" 
