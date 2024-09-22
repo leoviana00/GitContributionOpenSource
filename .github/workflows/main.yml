@@ -64,11 +64,11 @@ jobs:
       - name: Comment PR on Success and Add Label [automerge]
         if: success()
         run: |
-          AUTHOR_NAME="${{ github.event.pull_request.user.login }}"
+          AUTHOR_NAME=${{ github.event.pull_request.user.login }}
           TITLE_PR=${{ github.event.pull_request.title }}
           REPO_URL=${{ github.event.pull_request.head.repo.html_url }}
           cat <<EOT > message.txt
-          Aí sim hein `$AUTHOR_NAME`` ! Seu PR foi aprovado 🥳 
+          Aí sim hein `$AUTHOR_NAME` ! Seu PR foi aprovado 🥳 
           Faremos o merge aqui em breve. Muito obrigado pela contribuição 🚀
           EOT
 
@@ -80,8 +80,9 @@ jobs:
       - name: Comment PR on Failure
         if: failure()
         run: |
+          AUTHOR_NAME=${{ github.event.pull_request.user.login }}
           cat <<EOT > message.txt
-          Olá `${{ github.event.pull_request.user.login }}`! Parece que houve um problema com o seu PR 🧐 Aqui estão algumas coisas para verificar:
+          Olá `$AUTHOR_NAME` ! Parece que houve um problema com o seu PR 🧐 Aqui estão algumas coisas para verificar:
           - Seu PR deve seguir a convenção de commits.
 
           Para obter mais detalhes e garantir que tudo esteja correto, confira nossas instruções nos arquivos [Guia do Contribuidor](https://github.com/leoviana00/GitTemplate/blob/main/CONTRIBUTING.md) (que, em geral, NÃO devem ser modificados, pois são arquivos genéricos de apoio).
