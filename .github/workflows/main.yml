@@ -71,7 +71,7 @@ jobs:
           Olá $AUTHOR_NAME ! Parece que houve um problema com o seu PR 🧐 Aqui estão algumas coisas para verificar:
 
           - Seu PR deve seguir a [convenção de commits](https://github.com/leoviana00/GitContributionOpenSource/blob/main/CONTRIBUTING.md#lista-de-tipos-de-commits-permitidos).
-          - Seu PR deve modificar **apenas** o arquivo **contribution_project.md** (dê uma olhadinha na aba **Files changed**);
+          - Seu PR deve modificar **apenas** o arquivo [contribution_project.md](https://github.com/leoviana00/GitContributionOpenSource/blob/main/CONTRIBUTING.md) - dê uma olhadinha na aba **Files changed**;
 
           Para obter mais detalhes e garantir que tudo esteja correto, confira nossas instruções nos arquivos [Guia do Contribuidor](https://github.com/leoviana00/GitTemplate/blob/main/CONTRIBUTING.md) (que, em geral, NÃO devem ser modificados, pois são arquivos genéricos de apoio).
 

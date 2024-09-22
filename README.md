@@ -57,9 +57,9 @@ Itens desenvolvidos para compor o projeto.
 ##
 <div align="center">Feito por <a href="https://github.com/leoviana00">Léo</a>.</div>
 
+
 ## 📄 Referências
 
 - [Configurando Issues Template para o Repositório](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository)
 - [Sintaxe básica de escrita e formatação](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#referencing-issues-and-pull-requests)
-
 - [Using an intermediate environment variable](https://docs.github.com/en/actions/security-for-github-actions/security-guides/security-hardening-for-github-actions#using-an-intermediate-environment-variable)
